@@ -1,0 +1,33 @@
+# Table RAG System - Requirements
+
+# Core dependencies
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Table extraction
+pdfplumber>=0.10.0
+python-docx>=0.8.11
+beautifulsoup4>=4.12.0
+
+# Optional table extraction (uncomment if needed)
+# camelot-py[cv]>=0.11.0
+
+# Table processing
+# (no additional dependencies beyond pandas/numpy)
+
+# Embedding models
+sentence-transformers>=2.2.0
+
+# Optional OpenAI embeddings (uncomment if using OpenAI)
+# openai>=1.0.0
+
+# Vector databases
+faiss-cpu>=1.7.4
+
+# Optional ChromaDB (uncomment if using ChromaDB)
+# chromadb>=0.4.0
+
+# Development dependencies (optional)
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0
